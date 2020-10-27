@@ -1,0 +1,13 @@
+// 让vscode可以自动加载路径
+{
+  "compilerOptions": {
+    "paths": {
+      "@redux/*": ["./src/redux/*"],
+      "@utils/*": ["./src/utils/*"],
+      "@api/*": ["./src/api/*"]
+    },
+    "baseUrl": ".",
+    "module": "es6"
+  },
+  "exclude": ["node_modules"]
+}
